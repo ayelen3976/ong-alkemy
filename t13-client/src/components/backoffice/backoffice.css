@@ -1,0 +1,38 @@
+.backoffice {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.backoffice__navbar {
+  background-color: rgba(211, 224, 234, 0.5);
+  text-align: center;
+  padding: 15px 0;
+}
+.navbar__description {
+  color: #444;
+}
+.description__name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.navbar__select {
+  padding: 0.2em;
+
+  border: none;
+  background: linear-gradient(45deg, transparent, #fff);
+  border-radius: 0.3em;
+
+  box-shadow: 0px 1px 6px 1px #999;
+
+  color: #444;
+  font-size: 1.3rem;
+
+  outline: none;
+}
+@media screen and (min-width: 720px) {
+  .backoffice {
+    grid-template-columns: 1fr 80%;
+  }
+  .backoffice__navbar {
+    height: 100vh;
+  }
+}

@@ -1,0 +1,23 @@
+.social__container {
+display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__img {
+  margin: 12px;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+}
+
+@media (min-width: 768px) {
+  .social__container {
+    display: flex;
+    flex-direction: row;
+  }
+  .social__img {
+    margin-right: 20px;
+  }
+}

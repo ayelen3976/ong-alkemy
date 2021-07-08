@@ -1,0 +1,43 @@
+.table-contact__table-data {
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    transform: scaleX(.8);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.table-contact__table-data:hover {
+    background-color: rgb(149, 198, 251);
+    transform: scaleX(.85);
+}
+
+.table-contact__modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-contact__modal-header {
+    border-bottom: none;
+}
+
+.table-contact__modal-button {
+    font-family: Montserrat;
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.table-contact__modal-button:hover {
+    background-color: rgba(0, 0, 0, 0.158);
+    color: #000;
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+.table-contact__modal-footer {
+    border-top: none;
+}

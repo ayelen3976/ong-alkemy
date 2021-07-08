@@ -1,0 +1,17 @@
+[1mdiff --git a/routes/testimonials.js b/routes/testimonials.js[m
+[1mindex 5e99124..ceadf13 100644[m
+[1m--- a/routes/testimonials.js[m
+[1m+++ b/routes/testimonials.js[m
+[36m@@ -1,10 +1,12 @@[m
+ const express = require("express");[m
+[32m+[m[32mconst { getTestimonials } = require("../service/testimonials/getTestimonial");[m
+ const postTestimonial = require("../service/testimonials/postTestimonial");[m
+ const {[m
+   updateTestimonial,[m
+ } = require("../service/testimonials/updateTestimonial");[m
+ const router = express.Router();[m
+ [m
+[32m+[m[32mrouter.get("/", getTestimonials);[m
+ router.post("/", postTestimonial);[m
+ router.put("/:id", updateTestimonial);[m
+ [m

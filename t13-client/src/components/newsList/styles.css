@@ -1,0 +1,38 @@
+.table-list {
+    box-shadow: none;
+    border-collapse: separate;
+    table-layout: auto;
+    font-size: 1rem;
+    margin-top: 2vh;
+}
+
+.table-activity__table-data {
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+.table-activity__table-row:hover {
+    transform: scale(.90);
+    margin-bottom: 2vh;
+}
+
+.table-list__header {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: Raleway;
+}
+
+.icon {
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-left: 7vw;
+    border: none;
+}
+
+@media screen and (min-width: 900px) {
+    .icon {
+        margin-left: 4vw;
+    }
+}

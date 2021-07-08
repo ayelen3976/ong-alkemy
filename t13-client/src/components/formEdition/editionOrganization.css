@@ -1,0 +1,22 @@
+.organization__edition-form {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.organization__edit-btn {
+  width: 100%;
+  margin: 20px 0;
+  background-color: #4ea1fb;
+  padding: 10px 0;
+  color: white;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: 0.4s ease;
+}
+
+.organization__edit-btn:hover {
+  background-color: blue;
+  transition: 0.4s ease;
+}
